@@ -1,3 +1,26 @@
+@import url("https://db.onlinewebfonts.com/c/2eba1e44ff150d867122736d358c496f?family=Draconis");
+@font-face {font-family: "Draconis"; 
+    src: url("https://db.onlinewebfonts.com/t/2eba1e44ff150d867122736d358c496f.eot"); 
+    src: url("https://db.onlinewebfonts.com/t/2eba1e44ff150d867122736d358c496f.eot?#iefix") format("embedded-opentype"), url("https://db.onlinewebfonts.com/t/2eba1e44ff150d867122736d358c496f.woff2") format("woff2"), url("https://db.onlinewebfonts.com/t/2eba1e44ff150d867122736d358c496f.woff") format("woff"), url("https://db.onlinewebfonts.com/t/2eba1e44ff150d867122736d358c496f.ttf") format("truetype"), url("https://db.onlinewebfonts.com/t/2eba1e44ff150d867122736d358c496f.svg#Draconis") format("svg"); 
+}
+
+.header {
+    text-align: center;
+    font-family: 'Draconis';
+    font-size: 50px;
+    color: white;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+    
 body {
     background: #800080;
+}
+
+.wrapper {
+    text-align: center;
+    font-family: 'Draconis';
+}
+
+.welcome {
+    text-align: center;
 }
