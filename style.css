@@ -7,20 +7,33 @@
 .header {
     text-align: center;
     font-family: 'Draconis';
-    font-size: 50px;
+    font-size: 80px;
     color: white;
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    letter-spacing: 8px;
 }
     
 body {
     background: #800080;
+    background-image: url("https://64.media.tumblr.com/5d173d23c1db5647bbec729354723e07/tumblr_pdxxv3xW3h1u0031lo1_1280.jpg");
+    background-repeat:repeat-y;
+    background-position: center center;
+    background-size: 60%;
 }
+
 
 .wrapper {
     text-align: center;
     font-family: 'Draconis';
+    font-size: 14px;
 }
 
 .welcome {
     text-align: center;
+    font-family: 'Draconis';
+    color: white;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    font-size: 30px;
+    margin-top: -20px;
+    letter-spacing: 2px;
 }
