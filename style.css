@@ -14,26 +14,80 @@
 }
     
 body {
-    background: #800080;
+    background: #996633;
     background-image: url("https://64.media.tumblr.com/5d173d23c1db5647bbec729354723e07/tumblr_pdxxv3xW3h1u0031lo1_1280.jpg");
     background-repeat:repeat-y;
     background-position: center center;
     background-size: 60%;
 }
 
-
 .wrapper {
     text-align: center;
-    font-family: 'Draconis';
-    font-size: 14px;
+    font-size: 18px;
 }
 
 .welcome {
-    text-align: center;
-    font-family: 'Draconis';
     color: white;
-    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;    
+    font-family: 'Draconis';
+    letter-spacing: 1px;
+    text-align: center;
+    font-style: italic;
     font-size: 30px;
     margin-top: -20px;
     letter-spacing: 2px;
+}
+
+h3 {
+    color: white;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;    
+    font-family: 'Draconis';
+    letter-spacing: 1px;
+    text-align: left;
+    font-size: 30px;
+    letter-spacing: 1px;
+    margin-left: 20%;
+    padding: 5%;
+}
+
+p {
+    font-family: Tahoma, sans-serif;
+    text-align: justify;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: -75px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    display: block;
+    background-color:#ead362;
+}
+
+.blog {
+    font-family: Tahoma, sans-serif;
+    text-align: left;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: -75px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    display: block;
+    background-color:#ead362;
+}
+
+.links {
+    font-family: Tahoma, sans-serif;
+    text-align: left;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: -75px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    display: block;
+    background-color:#ead362;
 }
