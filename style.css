@@ -26,7 +26,7 @@ body {
     color: white;
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;    
     font-family: 'Draconis';
-    letter-spacing: 1px;
+    letter-spacing: 2px;
     text-align: center;
     font-style: italic;
     font-size: 30px;
@@ -50,7 +50,7 @@ h3 {
     color: white;
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;    
     font-family: 'Draconis';
-    letter-spacing: 1px;
+    letter-spacing: 2px;
     text-align: left;
     font-size: 30px;
     display: inline;
@@ -84,6 +84,35 @@ h3 {
     transform: translateY(-50%);
 }
 
+h4 {
+    display: inline-flex;
+    font-family: 'Draconis';
+    letter-spacing: 2px;
+    font-size: 24px;
+    color: white;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;  
+    padding: 0.5em;
+}
+
+.list-boxes {
+    font-family: Tahoma, sans-serif;
+    font-size: 14px;
+    text-align: left;
+    background-color:#D4CC39;
+    padding: 0.5em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 2em;
+    position: absolute;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: 20%;
+    margin-left: 20%;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
 .list-block {
     display: block;
     background-color: #633A23;
@@ -94,7 +123,21 @@ h3 {
     padding-bottom: 5em;
     padding-top: 2em;
     position: relative;
-    height: fit-content
+    height: 1500px
+}
+
+.funko a {
+    position: relative;
+}
+
+.funko a span {
+    position: absolute;
+    display: none;
+    z-index: 99;
+}
+
+.funko:hover span {
+    display: block;
 }
 
 .link-block {
