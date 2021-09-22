@@ -2,13 +2,15 @@
 <html lang="en">
   <head>
     <link rel="stylesheet" href="./style.css">
-    <link href="//db.onlinewebfonts.com/c/2eba1e44ff150d867122736d358c496f?family=Draconis" rel="stylesheet" type="text/css"/>
+    <link href="https://db.onlinewebfonts.com/c/2eba1e44ff150d867122736d358c496f?family=Draconis" rel="stylesheet" type="text/css"/>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/js/all.min.js"></script>
     <title>Javan Appleby</title>
   </head>
   <body>
     <script src="./script.js"></script>
     <h1 class="header">Javan Appleby</h1>
-    <h2 class="welcome">Roll for Initiative!</h2>
+    <h2 id="welcome">Roll for Initiative!</h2>
 
       <div class="about-wrapper">
         <h3>About</h3>
@@ -23,21 +25,23 @@
         <br>
       </div>
       <div class="link-wrapper">
-        <h3 class="links">Links</h3> </h3>
-          <a href="https://twitter.com/Styxnst0nz">Twitter</a>
+        <h3>Links</h3>
+          <a href="https://twitter.com/Styxnst0nz">
+            <i class="fab fa-twitter"></i>
+          </a>
           <a href="https://www.linkedin.com/in/javan-appleby-92a7255a/">linkedIn</a>
           <a href="https://github.com/JavanAppleby">GitHub</a>
         <br>
       </div>
 
-      <audio id="ambience" autoplay> 
+      <audio id="ambience" autoplay=on controls> 
         <source src="./audio/Rainforest-sounds.mp3" type="audio/mp3">
         <source src="./audio/Rainforest-sounds.mp3" type="audio/ogg">
       </audio>
 
       <script>
         var audio = document.getElementById("ambience");
-        audio.volume = 0.2
+        audio.volume = 0.1
       </script>
 
 
