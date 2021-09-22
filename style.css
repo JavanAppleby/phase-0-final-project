@@ -34,64 +34,52 @@ body {
     letter-spacing: 2px;
 }
 
+.text-boxes {
+    display: block;
+    background-color: #633A23;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding: 2em;
+}
+
+h3 {
+    color: white;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;    
+    font-family: 'Draconis';
+    letter-spacing: 1px;
+    text-align: left;
+    font-size: 30px;
+    display: inline;
+    float: left;
+    margin-top: -0.5em;
+    padding-right: 1em;
+}
+
 p {
     font-family: Tahoma, sans-serif;
     text-align: justify;
-    margin: 5%;
-    padding: 1%;
-    display: block;
+    padding: 0.5em;
+    margin-top: -0.5em;
+    display: inline-flex;
     background-color:#D4CC39; 
 }
 
 .blog-text {
     font-family: Tahoma, sans-serif;
-    text-align: left;
-    margin: 5%;
-    padding: 1%;
-    display: block;
-    background-color:#D4CC39;
+    text-align: justify;
+    padding: 0.5em;
+    margin-top: -0.5em;
+    display: inline-flex;
+    background-color:#D4CC39; 
 }
+
+.link-icons {
+    display: flex;
+    flex-flow: row;
+    color: black;
+}
+
 
 #ambience {
     display: none;
-}
-
-.about {
-    color: white;
-    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;    
-    font-family: 'Draconis';
-    letter-spacing: 1px;
-    text-align: left;
-    font-size: 30px;
-    display: block;
-    background-color: #633A23;
-    padding: 0.5em;
-    margin-left: 20%;
-    margin-right: 20%;
-}
-
-.blog {
-    color: white;
-    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;    
-    font-family: 'Draconis';
-    letter-spacing: 1px;
-    text-align: left;
-    font-size: 30px;
-    letter-spacing: 1px;
-    padding-left: 5%;
-    padding-right: 5%;
-    padding-top: 5%;
-}
-
-.links {
-    color: white;
-    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;    
-    font-family: 'Draconis';
-    letter-spacing: 1px;
-    text-align: left;
-    font-size: 30px;
-    letter-spacing: 1px;
-    padding-left: 5%;
-    padding-right: 5%;
-    padding-top: 5%;
 }
