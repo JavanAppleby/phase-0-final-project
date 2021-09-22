@@ -94,6 +94,7 @@ h3 {
     padding-bottom: 5em;
     padding-top: 2em;
     position: relative;
+    height: fit-content
 }
 
 .link-block {
