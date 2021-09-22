@@ -34,12 +34,16 @@ body {
     letter-spacing: 2px;
 }
 
-.text-boxes {
+.text-block {
     display: block;
     background-color: #633A23;
-    margin-left: 15%;
-    margin-right: 15%;
-    padding: 2em;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-bottom: 5em;
+    padding-top: 2em;
+    position: relative;
 }
 
 h3 {
@@ -50,35 +54,76 @@ h3 {
     text-align: left;
     font-size: 30px;
     display: inline;
-    float: left;
-    margin-top: -0.5em;
-    padding-right: 1em;
+    position: absolute;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: 2em;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
 }
 
-p {
+.text-boxes {
     font-family: Tahoma, sans-serif;
     text-align: justify;
-    padding: 0.5em;
-    margin-top: -0.5em;
     display: inline-flex;
-    background-color:#D4CC39; 
-}
-
-.blog-text {
-    font-family: Tahoma, sans-serif;
-    text-align: justify;
+    flex-flow: row wrap;
+    background-color:#D4CC39;
     padding: 0.5em;
-    margin-top: -0.5em;
-    display: inline-flex;
-    background-color:#D4CC39; 
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 2em;
+    position: absolute;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: 20%;
+    margin-left: 20%;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
 }
 
-.link-icons {
-    display: flex;
-    flex-flow: row;
-    color: black;
+.link-block {
+    display: block;
+    background-color: #633A23;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-bottom: 5em;
+    padding-top: 2em;
+    position: relative;
 }
 
+.twitter {
+    background-color:#D4CC39;
+    padding: 5px;
+    position: absolute;
+    margin-left: 20%;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.linkedIn {
+    background-color:#D4CC39;
+    padding: 5px;
+    position: absolute;
+    margin-left: 45%;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.GitHub {
+    background-color:#D4CC39;
+    padding: 5px;
+    position: absolute;
+    margin-left: 70%;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
 
 #ambience {
     display: none;
