@@ -21,15 +21,6 @@ body {
     background-size: 100%;
 }
 
-.about-wrapper {
-    text-align: center;
-    font-size: 18px;
-    display: block;
-    background-color: #633A23;
-    margin-left: 15%;
-    margin-right: 15%;
-    padding-bottom: 1%;
-}
 
 #welcome {
     color: white;
@@ -43,7 +34,43 @@ body {
     letter-spacing: 2px;
 }
 
-h3 {
+p {
+    font-family: Tahoma, sans-serif;
+    text-align: justify;
+    margin: 5%;
+    padding: 1%;
+    display: block;
+    background-color:#D4CC39; 
+}
+
+.blog-text {
+    font-family: Tahoma, sans-serif;
+    text-align: left;
+    margin: 5%;
+    padding: 1%;
+    display: block;
+    background-color:#D4CC39;
+}
+
+#ambience {
+    display: none;
+}
+
+.about {
+    color: white;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;    
+    font-family: 'Draconis';
+    letter-spacing: 1px;
+    text-align: left;
+    font-size: 30px;
+    display: block;
+    background-color: #633A23;
+    padding: 0.5em;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.blog {
     color: white;
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;    
     font-family: 'Draconis';
@@ -56,51 +83,15 @@ h3 {
     padding-top: 5%;
 }
 
-p {
-    font-family: Tahoma, sans-serif;
-    text-align: justify;
-    margin: 5%;
-    padding: 1%;
-    display: block;
-    background-color:#D4CC39;
-    
-}
-
-.blog-wrapper {
-    font-size: 18px;
-    display: block;
-    background-color: #633A23;
-    margin-left: 15%;
-    margin-right: 15%;
-    padding-bottom: 1%;
-}
-
-.blog {
-    font-family: Tahoma, sans-serif;
+.links {
+    color: white;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;    
+    font-family: 'Draconis';
+    letter-spacing: 1px;
     text-align: left;
-    margin: 5%;
-    padding: 1%;
-    display: block;
-    background-color:#D4CC39;
-}
-
-.link-wrapper {
-    font-size: 18px;
-    display: inline;
-    background-color: #633A23;
-    margin-left: 15%;
-    margin-right: 15%;
-    padding-bottom: 3%;
-}
-
-.link-wrapper a {
-    background-color:#D4CC39;
-    display: inline;
-    margin-left: 5%;
-    margin-right: 5%;
-    padding-bottom: 1em;
-}
-
-#ambience {
-    display: none;
+    font-size: 30px;
+    letter-spacing: 1px;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 5%;
 }
