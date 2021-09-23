@@ -21,7 +21,6 @@ body {
     background-size: 100%;
 }
 
-
 #welcome {
     color: white;
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;    
@@ -35,16 +34,15 @@ body {
 }
 
 .text-block {
-    display: block;
+    display: inline-block;
     background-color: #633A23;
     margin-left: 20%;
     margin-right: 20%;
-    padding-left: 2em;
-    padding-right: 2em;
-    padding-bottom: 5em;
-    padding-top: 2em;
-    position: relative;
-    height: 2em;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-bottom: 1em;
+    padding-top: 1em;
+    margin-bottom: 1em;
 }
 
 h3 {
@@ -55,34 +53,19 @@ h3 {
     text-align: left;
     font-size: 30px;
     display: inline;
-    position: absolute;
-    margin-top: 0;
-    margin-bottom: 0;
-    margin-right: 2em;
-    top: 50%;
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
+    margin-top: -0.1em;
 }
 
 .text-boxes {
     font-family: Tahoma, sans-serif;
     font-size: 18px;
     text-align: justify;
-    display: inline-flex;
-    flex-flow: row wrap;
     background-color:#D4CC39;
     padding: 0.5em;
-    margin-top: 1em;
-    margin-bottom: 1em;
-    margin-left: 2em;
-    position: absolute;
-    margin-top: 0;
-    margin-bottom: 0;
-    margin-right: 20%;
-    margin-left: 20%;
-    top: 50%;
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
+    margin-left: 1em;
+    margin-right: 1em;
+    display: inline-flex;
+    box-sizing: fit-content;
 }
 
 h4 {
@@ -104,18 +87,11 @@ h4 {
     margin-top: 1em;
     margin-bottom: 1em;
     margin-left: 2em;
-    position: absolute;
-    margin-top: 0;
-    margin-bottom: 0;
-    margin-right: 20%;
-    margin-left: 20%;
-    top: 50%;
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
+    box-sizing: fit-content;
 }
 
 .list-block {
-    display: block;
+    display: inline-block;
     background-color: #633A23;
     margin-left: 20%;
     margin-right: 20%;
@@ -123,21 +99,19 @@ h4 {
     padding-right: 2em;
     padding-bottom: 5em;
     padding-top: 2em;
-    position: relative;
-    height: 1750px
 }
 
-.funko a {
+.hover-img a {
     position: relative;
 }
 
-.funko a span {
+.hover-img a span {
     position: absolute;
     display: none;
     z-index: 99;
 }
 
-.funko:hover span {
+.hover-img:hover span {
     display: block;
 }
 
