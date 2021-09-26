@@ -17,7 +17,7 @@ function rollInit(minimum, maximum) {
     };
     /*return printedStatement;*/
     
-    document.getElementById(`result`).innerHTML = printedStatement;
+    parseInt(document.getElementById(`result`).innerHTML = printedStatement);
 }
 
 /*console.log(rollInit(1, 20))*/
