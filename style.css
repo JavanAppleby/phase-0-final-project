@@ -38,12 +38,9 @@ body {
     background-color: #633A23;
     margin-left: 25%;
     margin-right: 25%;
-    padding-left: 1em;
-    padding-right: 1em;
-    padding-bottom: 1em;
-    padding-top: 1em;
+    padding: 1em;
     margin-bottom: 1em;
-    width: 75em;
+    width: 50%;
 }
 
 h3 {
@@ -53,7 +50,7 @@ h3 {
     letter-spacing: 2px;
     text-align: left;
     font-size: 30px;
-    display: inline;
+    display: inline-block;
     margin-top: -0.1em;
 }
 
@@ -63,12 +60,11 @@ h3 {
     text-align: justify;
     background-color:#D4CC39;
     padding: 0.5em;
-    margin-left: 1em;
+    margin-left: 2em;
     margin-right: 1em;
-    margin-top: 1em;
     display: inline-flex;
     word-wrap: normal;
-    width: 62em;
+    width: 90%;
 }
 
 h4 {
@@ -86,13 +82,9 @@ h4 {
     text-align: left;
     background-color:#D4CC39;
     padding: 0.5em;
-    margin-top: 1em;
     margin-bottom: 1em;
     margin-left: 2em;
-    box-sizing: fit-content;
-    display: inline-block;
-    word-wrap: normal;
-    width: 62em;
+    width: 90%;
 }
 
 .list-block {
@@ -100,11 +92,8 @@ h4 {
     background-color: #633A23;
     margin-left: 25%;
     margin-right: 25%;
-    padding-left: 1em;
-    padding-right: 1em;
-    padding-bottom: 1em;
-    padding-top: 1em;
-    width: 75em;
+    padding: 1em;
+    width: 50%;
 }
 
 .hover-img a {
@@ -127,11 +116,8 @@ h4 {
     margin-left: 25%;
     margin-right: 25%;
     margin-top: 1em;
-    padding-left: 1em;
-    padding-right: 1em;
-    padding-bottom: 1em;
-    padding-top: 1em;
-    width: 75em;
+    padding: 1em;
+    width: 50%;
 }
 
 .twitter {
@@ -166,4 +152,8 @@ h4 {
 
 #ambience {
     display: none;
+}
+
+.link-boxes {
+    width: 20%;
 }
