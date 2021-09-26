@@ -160,4 +160,17 @@ h4 {
 
 #d20dice {
     margin-left: 47%;
+    padding-bottom: 5em;
+}
+
+#result {
+    text-align: center;
+    font-family: Tahoma, sans-serif;
+    font-size: 18px;
+    background-color:#D4CC39;
+    padding: 0.9em;
+    margin-bottom: 1em;
+    margin-left: 25%;
+    margin-right: 25%;
+    width: 50%;
 }

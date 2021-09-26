@@ -15,7 +15,9 @@ function rollInit(minimum, maximum) {
     } else {
         var printedStatement = `You rolled a ${theRoll}. That's good enough! You may pass` 
     };
-    return printedStatement;
+    /*return printedStatement;*/
+    
+    document.getElementById(`result`).innerHTML = printedStatement;
 }
 
-console.log(rollInit(1, 20))
+/*console.log(rollInit(1, 20))*/
