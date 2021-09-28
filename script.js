@@ -1,6 +1,6 @@
 function d20(min, max) {
-    var minNum = 1;
-    var maxNum = 20;
+    let minNum = 1;
+    let maxNum = 20;
     let mathLogic = Math.floor(Math.random() * (parseInt(maxNum) - parseInt(minNum) + 1)) + parseInt(minNum);
     return parseInt(mathLogic)
 }
