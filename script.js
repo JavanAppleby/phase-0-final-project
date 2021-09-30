@@ -20,4 +20,5 @@ function rollInit(minimum, maximum) {
     document.getElementById(`result`).innerHTML = printedStatement;
 }
 
+
 /*console.log(rollInit(1, 20));*/

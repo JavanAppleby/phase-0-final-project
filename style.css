@@ -150,6 +150,16 @@ h4 {
     display: inline-block;
 }
 
+.email {
+    background-color:#D4CC39;
+    padding: 5px;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 2em;
+    margin-right: 2em;
+    display: inline-block;
+}
+
 #ambience {
     display: none;
 }
@@ -173,4 +183,14 @@ h4 {
     margin-left: 25%;
     margin-right: 25%;
     width: 50%;
+}
+
+#me {
+    margin-left: 45%;
+    padding-bottom: 3em;
+}
+
+.skill-block {
+    width: fit-content;
+    padding: 2em;
 }
