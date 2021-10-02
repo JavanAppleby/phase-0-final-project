@@ -16,7 +16,7 @@ function rollInit(minimum, maximum) {
         var printedStatement = `${theRoll} That's good enough! You may pass` 
     };
     /*return printedStatement;*/
-
+    
     document.getElementById(`result`).innerHTML = printedStatement;
 }
 
