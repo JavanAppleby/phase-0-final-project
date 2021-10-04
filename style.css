@@ -160,10 +160,6 @@ h4 {
     display: inline-block;
 }
 
-#ambience {
-    display: none;
-}
-
 .link-boxes {
     width: 20%;
 }
@@ -193,4 +189,8 @@ h4 {
 .skill-block {
     width: fit-content;
     padding: 2em;
+}
+
+#ambience {
+    display: none;
 }

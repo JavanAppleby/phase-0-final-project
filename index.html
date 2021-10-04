@@ -6,6 +6,16 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" type="text/css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/js/all.min.js"></script>
     <script type="text/javascript" src="./script.js"></script>
+
+    <audio id="ambience" autoplay=on controls loop> 
+      <source src="./audio/Rainforest-sounds.mp3" type="audio/mp3">
+      <source src="./audio/Rainforest-sounds.mp3" type="audio/ogg">
+    </audio>
+    <script>
+      var audio = document.getElementById("ambience");
+      audio.volume = 0.1
+    </script>
+
     <title>Javan Appleby</title>
   </head>
   <body>
@@ -210,16 +220,5 @@
       </a>
     </div>
   </footer>
-
-  <audio id="ambience" autoplay=on controls loop> 
-    <source src="./audio/Rainforest-sounds.mp3" type="audio/mp3">
-    <source src="./audio/Rainforest-sounds.mp3" type="audio/ogg">
-  </audio>
-
-  <script>
-    var audio = document.getElementById("ambience");
-    audio.volume = 0.1
-  </script>
-
   </body>
 </html>
